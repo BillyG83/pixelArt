@@ -7,11 +7,11 @@ class Canvas extends React.Component {
     constructor() {
         super()
         this.state = {
-            setupReady: false,
+            setupReady: true,
             projectInfo: {
                 projectName: 'your project',
-                projectWidth: 0,
-                projectHeight: 0
+                projectWidth: 16,
+                projectHeight: 16
             }
         }
     }

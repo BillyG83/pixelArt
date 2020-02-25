@@ -5,7 +5,10 @@ const PixelCell = ({ currentColor }) => {
 
     const cellClicked = (e) => {
         e.preventDefault()
-        e.target.style.backgroundColor = `#${currentColor}`
+        console.log(currentColor);
+        console.log(e.target);
+        
+        e.target.style.backgroundColor = `${currentColor}`
     }
 
     return (
